@@ -1,0 +1,13 @@
+# config/config.yaml
+
+dataset_url: 'https://github.com/Shenggan/BCCD_Dataset.git'  # URL to download the dataset
+
+# Paths for raw data (images & annotations) after download
+raw_data_path: "D:/Comparison Of YOLO Models on BCCD Dataset/dataset/raw"
+raw_images_path: "D:/Comparison Of YOLO Models on BCCD Dataset/dataset/raw/BCCD_Dataset.zip/BCCD/JPEGImages"
+raw_annotations_path: "D:/Comparison Of YOLO Models on BCCD Dataset/dataset/raw/BCCD_Dataset.zip/BCCD/Annotations"
+csv_path: ""
+
+# Paths for processed data (images & labels in YOLO format)
+processed_images_path: "D:/Comparison Of YOLO Models on BCCD Dataset/dataset/processed/images"
+processed_annotations_path: "D:/Comparison Of YOLO Models on BCCD Dataset/dataset/processed/labels"
